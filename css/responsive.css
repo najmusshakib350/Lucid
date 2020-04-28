@@ -1,0 +1,302 @@
+@media(max-width: 575px) { 
+    header .navbar-toggler-icon {
+        background: #fff;
+    }
+    header .navbar .nav-item::before {
+        display: none;
+    }
+    header .navbar .nav-item::after{
+        display: none;
+    }
+    header .hero-area h1{
+        font-size: 30px;
+    }
+    header .hero-area .Button-control .btn{
+        padding: 10px 35px;
+    }
+    header .hero-area .Button-control .btn-cta{
+      margin-bottom: 10px;
+    }
+    header .hero-area .Button-control .btn-ghost{  
+        margin-bottom: 10px;
+    }
+    .feature h2 {
+        font-size: 25px;
+    }
+    .about{
+        padding-top: 0;
+    }
+    .about .right-div .unorderlist{
+        padding: 0;
+    }
+    .about .right-div h2{
+        font-size: 25px;
+    }
+    .aboutsecond{
+        padding: 0;
+    }
+    .aboutsecond .right-div h2{
+        font-size: 25px;
+    }
+    .plagin .plagin-upper h2{
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+    .plagin .img-manager img{
+        width: 25%;
+    }
+    .carousel-res-320-none{
+        display: none;
+    }
+    .plagin .left-upper{
+        padding: 40px 0px;
+    }
+    .plagin .managar-inform h5{
+        font-size: 16px;
+    }
+    .upper h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+    .upper .hero-areaa .btn-ghost{
+        margin-bottom: 10px;
+    }
+    .upper .hero-areaa .btn-cta{
+        margin-bottom: 10px;
+    }
+    .upper .hero-areaa .btn{
+        padding: 12px 35px;
+    }
+    .pricing .upperclass h2{
+        font-size: 25px;
+    }
+    .pricing .box h3{
+        font-size: 20px;
+    }
+    .pricing .allto .box .medium .firstp{
+        font-size: 50px;
+    }
+    .pricing .allto .box .medium .firstp sup{
+        font-size: 25px;
+    }
+    .contact .row .col-12 h2{
+        font-size: 25px;
+    }
+    .contact .contact-left{
+        padding: 25px 0px !important;
+    }
+    .contact .contact-middle{
+        padding: 25px 0px !important;
+    }
+    .contact .col-4 div p{
+        margin-bottom: 20px;
+    }
+    .contact .contact-end{
+        padding: 25px 0px !important;
+        margin-bottom: 200px;
+    }
+    .contact .contact-position{
+        width: 80%;
+        padding: 20px 0;
+        margin: 0 auto;
+    }
+    .contact .contact-position .text{
+        margin-left: 0px;
+    }
+    .contact .contact-position .textarea{
+        margin-left: 0;
+    }
+    .contact .contact-position .btn{
+        margin-right: 0;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767px) {
+    header .navbar-toggler-icon {
+        background: #fff;
+    }
+    header .navbar .nav-item::after{
+        display: none;
+    }
+    header .hero-area h1{
+        font-size: 38px;
+    }
+    header .hero-area .Button-control .btn{
+        padding: 10px 35px;
+    }
+    header .right-mobile{
+        margin-top: 20px;
+    }
+    .feature h2 {
+        font-size: 30px;
+    }
+    .about{
+        padding-top: 0;
+    }
+    .about .right-div .unorderlist{
+        padding: 0;
+    }
+    .about .right-div h2{
+        font-size: 30px;
+    }
+    .about .right-div p{
+    }
+    .aboutsecond{
+        padding: 0;
+    }
+    .aboutsecond .right-div h2{
+        font-size: 30px;
+    }
+    .plagin .plagin-upper h2{
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .plagin .img-manager img{
+        width: 25%;
+    }
+    .carousel-res-320-none{
+        display: none;
+    }
+    .plagin .left-upper{
+        padding: 40px 0px;
+    }
+    .plagin .managar-inform h5{
+        font-size: 16px;
+    }
+    .upper h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+    .upper .hero-areaa .btn{
+        padding: 12px 35px;
+    }
+    .pricing .upperclass h2{
+        font-size: 30px;
+    }
+    .pricing .box h3{
+        font-size: 22px;
+    }
+    .contact .row .col-12 h2{
+        font-size: 30px;
+    }
+    .contact .contact-left{
+        padding: 25px 0px !important;
+    }
+    .contact .contact-middle{
+        padding: 25px 0px !important;
+    }
+    .contact .col-4 div p{
+        margin-bottom: 20px;
+    }
+    .contact .contact-end{
+        padding: 25px 0px !important;
+        margin-bottom: 200px;
+    }
+    .contact .contact-position{
+        width: 80%;
+        padding: 20px 0;
+        margin: 0 auto;
+    }
+    .contact .contact-position .text{
+        margin-left: 0px;
+    }
+    .contact .contact-position .textarea{
+        margin-left: 0;
+    }
+    .contact .contact-position .btn{
+        margin-right: 0;
+    }  
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+    header .navbar-toggler-icon {
+        background: #fff;
+    }
+    header .navbar .nav-item{
+        width: 20%;
+    }
+    header .navbar .nav-item:hover::before{
+        opacity: 1;
+        width: 48% !important;
+    }
+    header .navbar .nav-item:hover::after{
+        opacity: 1;
+        width: 48% !important;
+    }
+    header .hero-area h1{
+        font-size: 45px !important;
+    }
+    header .right-mobile{
+        margin-top: 20px;
+    }
+    .feature .row .box{
+        padding: 15px 0;
+    }
+    .about{
+        padding: 0;
+    }
+    .about .right-div h2{
+    }
+    .about .right-div .unorderlist{
+        padding-left: 0;
+    }
+    .plagin .img-manager img{
+        width: 25%;
+    }
+    .carousel-res-320{
+        max-width: 50%;
+    }
+    .carousel-res-320-none{
+        max-width: 50%;
+    }
+    .upper h2{
+        color: #fff;
+    }
+    .contact .contact-left{
+        padding: 25px 0px !important;
+    }
+    .contact .contact-middle{
+        padding: 25px 0px !important;
+    }
+    .contact .col-4 div p{
+        margin-bottom: 20px;
+    }
+    .contact .contact-end{
+        padding: 25px 0px !important;
+        margin-bottom: 200px;
+    }
+    .contact .contact-position{
+        padding: 20px 0;
+        margin: -80px auto;
+    }
+    .contact .contact-position .text{
+        margin-left: 0px;
+    }
+    .contact .contact-position .textarea{
+        margin-left: 0;
+    }
+    .contact .contact-position .btn{
+        margin-right: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .upper h2{
+        color: #fff;
+    }
+    .pricing .box .btn{
+        margin: 25px 0;
+    }
+    .padding-contact-bottom{
+        margin-top: 25px;
+        margin-bottom: 100px;
+    }
+    .contact .contact-position{
+        top: 90%;
+        padding: 50px 2%;
+    }
+    .contact .contact-position .row{
+        margin: 0 !important;
+    }
+}
+@media (min-width: 1200px) { ... }
